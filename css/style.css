@@ -140,3 +140,33 @@ html, body{
     align-items: center;
     gap: 8px;
 }
+
+
+.page-title{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 28px 0 20px;
+}
+.tabs_item{
+    padding: 10px 15px;
+    border: 1px solid rgba(30, 10, 60, 0.12);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #fff;
+    color: #5e5472;
+    cursor: pointer;
+    transition: background .2s, color .2s border-color .2s;
+
+}
+.tabs_item:hover{
+    background: #f6f4ff;
+    border-color: rgba(30, 10, 60, 0.2);
+    color: #735cc6;
+}
+.tabs_item--active{
+    background: #efeaff;
+    border-color: #cfc6f5;
+    color: #735cc6;
+
+}

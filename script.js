@@ -6,6 +6,8 @@ let difference = a - b;
 console.log(sum);
 console.log(difference);
 
+// Урок: операторы и условия //
+
 let title = "";
 if(title === ""){
     console.log("Название задач не указано");
@@ -42,3 +44,5 @@ function TaskSummary(total, done){
 
 console.log(taskSummary(5,4));
 console.log(10,4);
+
+
